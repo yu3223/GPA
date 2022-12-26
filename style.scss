@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+nav {
+  background-color: #a1e3ff;
+}
+.nav-link {
+  color: black;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: black;
+  background-color: #dff9ff;
+}
+
+body {
+  background-color: #dff9ff;
+  .box {
+    border-color: black;
+    a {
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-top: 2rem;
+      text-decoration: none; /* 將底線刪除 */
+      color: black;
+      background-color: #ffffff;
+      width: 25vw;
+      height: 7vh;
+      display: flex;
+      border-style: solid;
+      border-color: rgba(0, 0, 0, 0.405);
+    }
+  }
+}
+
+main {
+  h2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+  }
+  #GPALabel {
+    justify-content: center;
+    margin-top: 3rem;
+    display: flex;
+  }
+  div {
+    margin: 0rem 2.5rem;
+  }
+  form {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    justify-content: center;
+    #GPAInput {
+      display: flex;
+      justify-content: center;
+    }
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    button {
+      margin: 1rem;
+    }
+    button.add {
+      cursor: pointer;
+      border-style: none;
+      background-color: #cfe5cf;
+      color: #134825;
+      padding: 0.25rem 0.5rem;
+      font-size: 1rem;
+      height: 6vh;
+      width: 6vw;
+      &:hover {
+        color: #134825;
+        background-color: #aacfaa;
+      }
+    }
+    button.cancle {
+      cursor: pointer;
+      border-style: none;
+      background-color: #ecd7d7;
+      color: #7c0404;
+      padding: 0.25rem 0.5rem;
+      font-size: 1rem;
+      height: 6vh;
+      width: 6vw;
+      &:hover {
+        color: #7c0404;
+        background-color: #dab3b3;
+      }
+    }
+  }
+
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  .cal {
+    display: flex;
+    justify-content: center;
+    button.calculate {
+      cursor: pointer;
+      border-style: none;
+      background-color: #afcde1;
+      color: #33477c;
+      padding: 0.25rem 0.5rem;
+      font-size: 1rem;
+      height: 6vh;
+      width: 6vw;
+      &:hover {
+        color: #33477c;
+        background-color: #c1d5e2;
+      }
+    }
+  }
+
+  .can {
+    display: flex;
+    justify-content: center;
+    button.cancle {
+      cursor: pointer;
+      border-style: none;
+      background-color: #ecd7d7;
+      color: #7c0404;
+      margin-bottom: 2rem;
+      padding: 0.25rem 0.5rem;
+      font-size: 1rem;
+      height: 6vh;
+      width: 6vw;
+      &:hover {
+        color: #7c0404;
+        background-color: #dab3b3;
+      }
+    }
+  }
+
+  .Div {
+    display: flex;
+    background-color: rgb(248, 251, 252);
+    padding: 1rem 7rem;
+    justify-content: space-between;
+  }
+  .gpa {
+    display: flex;
+  }
+
+  button.trash {
+    background-color: #f9cfcf;
+    border-style: none;
+    color: #7c0404;
+    padding: 0rem 1rem;
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@keyframes scaleDown {
+  to {
+    transform: scale(0);
+  }
+}

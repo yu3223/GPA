@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+nav {
+  background-color: #a1e3ff;
+}
+.nav-link {
+  color: black;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: black;
+  background-color: #dff9ff;
+}
+
+body {
+  background-color: #dff9ff;
+}
+
+main {
+  #DateInput {
+    margin: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  form {
+    justify-content: center;
+    margin: auto;
+    #DateInput {
+      justify-content: center;
+    }
+  }
+  section {
+    margin-left: 40%;
+  }
+}
+
+.cal {
+  display: flex;
+  justify-content: center;
+  button.calculate {
+    cursor: pointer;
+    border-style: none;
+    background-color: #c1d5e2;
+    color: #33477c;
+    margin-top: 3rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    height: 6vh;
+    width: 6vw;
+    &:hover {
+      color: #33477c;
+      background-color: #afcde1;
+    }
+  }
+}
+.add {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  button.add {
+    cursor: pointer;
+    border-style: none;
+    background-color: #cfe5cf;
+    color: #134825;
+    margin-top: 3rem;
+    padding: 0.25rem 0.5rem;
+    font-size: 1rem;
+    height: 6vh;
+    width: 6vw;
+    &:hover {
+      color: #134825;
+      background-color: #aacfaa;
+    }
+  }
+}
