@@ -1,0 +1,185 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+nav {
+  background-color: #a1e3ff;
+}
+
+.nav-link {
+  color: black;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: black;
+  background-color: #dff9ff;
+}
+
+body {
+  background-color: #dff9ff;
+}
+body .box {
+  border-color: black;
+}
+body .box a {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 2rem;
+  text-decoration: none; /* 將底線刪除 */
+  color: black;
+  background-color: #ffffff;
+  width: 25vw;
+  height: 7vh;
+  display: flex;
+  border-style: solid;
+  border-color: rgba(0, 0, 0, 0.405);
+}
+
+main h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 3rem;
+}
+main #GPALabel {
+  justify-content: center;
+  margin-top: 3rem;
+  display: flex;
+}
+main div {
+  margin: 0rem 2.5rem;
+}
+main form {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+main form #GPAInput {
+  display: flex;
+  justify-content: center;
+}
+main .btn {
+  display: flex;
+  justify-content: center;
+}
+main .btn button {
+  margin: 1rem;
+}
+main .btn button.add {
+  cursor: pointer;
+  border-style: none;
+  background-color: #cfe5cf;
+  color: #134825;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  height: 6vh;
+  width: 6vw;
+}
+main .btn button.add:hover {
+  color: #134825;
+  background-color: #aacfaa;
+}
+main .btn button.cancle {
+  cursor: pointer;
+  border-style: none;
+  background-color: #ecd7d7;
+  color: #7c0404;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  height: 6vh;
+  width: 6vw;
+}
+main .btn button.cancle:hover {
+  color: #7c0404;
+  background-color: #dab3b3;
+}
+main input::-webkit-outer-spin-button,
+main input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+main .cal {
+  display: flex;
+  justify-content: center;
+}
+main .cal button.calculate {
+  cursor: pointer;
+  border-style: none;
+  background-color: #afcde1;
+  color: #33477c;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  height: 6vh;
+  width: 6vw;
+}
+main .cal button.calculate:hover {
+  color: #33477c;
+  background-color: #c1d5e2;
+}
+main .can {
+  display: flex;
+  justify-content: center;
+}
+main .can button.cancle {
+  cursor: pointer;
+  border-style: none;
+  background-color: #ecd7d7;
+  color: #7c0404;
+  margin-bottom: 2rem;
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  height: 6vh;
+  width: 6vw;
+}
+main .can button.cancle:hover {
+  color: #7c0404;
+  background-color: #dab3b3;
+}
+main .Div {
+  display: flex;
+  background-color: rgb(248, 251, 252);
+  padding: 1rem 7rem;
+  justify-content: space-between;
+}
+main .gpa {
+  display: flex;
+}
+main button.trash {
+  background-color: #f9cfcf;
+  border-style: none;
+  color: #7c0404;
+  padding: 0rem 1rem;
+}
+
+@-webkit-keyframes scaleUp {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes scaleUp {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+@-webkit-keyframes scaleDown {
+  to {
+    transform: scale(0);
+  }
+}
+@keyframes scaleDown {
+  to {
+    transform: scale(0);
+  }
+}/*# sourceMappingURL=style.css.map */
